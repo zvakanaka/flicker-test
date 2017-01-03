@@ -1,0 +1,16 @@
+{
+  "name": "base-58",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify app.js -o bundle.js",
+    "watch": "watchify app.js -o bundle.js"
+  },
+  "author": "Adam Quinton",
+  "license": "ISC",
+  "dependencies": {
+    "base58": "^0.1.0"
+  }
+}
