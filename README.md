@@ -2,7 +2,8 @@
 Create a file named `API_key.js` with the contents:  
 ```javascript
 //API_key
-export default 'YOUR_API_KEY';```  
+export default 'YOUR_API_KEY';
+```  
 
 `npm install`  
 `npm build`  
